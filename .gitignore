@@ -1,0 +1,26 @@
+# Flutter / Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/build/
+**/coverage/
+**/.pub-cache/
+**/.pub/
+**/flutter_*.png
+**/linked_*.ds
+**/unlinked.ds
+**/app.*.symbols
+**/app.*.map.json
+**/android/local.properties
+**/android/key.properties
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/macos/Flutter/ephemeral/
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/pubspec.lock
+.idea/
+.vscode/
+*.iml
+.DS_Store
