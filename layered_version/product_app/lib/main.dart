@@ -39,7 +39,7 @@ class _ProductAppState extends State<ProductApp> {
   @override
   Widget build(BuildContext context) => MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Ürün Listesi',
+        title: 'Products - Layered Architecture',
         theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.indigo),
         home: ProductScreen(controller: _controller),
       );

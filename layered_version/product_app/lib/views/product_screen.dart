@@ -28,7 +28,9 @@ class _ProductScreenState extends State<ProductScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(title: const Text('Ürünler'), centerTitle: true),
+        appBar: AppBar(
+            title: const Text('Ürünler - Layered Architecture'),
+            centerTitle: true),
         body: ListenableBuilder(
           listenable: widget.controller,
           builder: (context, _) {

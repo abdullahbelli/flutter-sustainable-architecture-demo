@@ -11,7 +11,7 @@ class ProductApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) => MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Ürün Listesi',
+        title: 'Products - Naive Version',
         theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.indigo),
         home: const ProductScreen(),
       );
@@ -66,7 +66,8 @@ class _ProductScreenState extends State<ProductScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(title: const Text('Ürünler'), centerTitle: true),
+        appBar: AppBar(
+            title: const Text('Ürünler - Naive Version'), centerTitle: true),
         body: _buildBody(),
       );
 
@@ -81,7 +82,8 @@ class _ProductScreenState extends State<ProductScreen> {
           children: [
             Text(_error!),
             const SizedBox(height: 12),
-            FilledButton(onPressed: _loadProducts, child: const Text('Tekrar dene')),
+            FilledButton(
+                onPressed: _loadProducts, child: const Text('Tekrar dene')),
           ],
         ),
       );
@@ -107,7 +109,8 @@ class _ProductScreenState extends State<ProductScreen> {
                 child: Image.network(
                   image,
                   fit: BoxFit.contain,
-                  errorBuilder: (_, __, ___) => const Icon(Icons.shopping_bag_outlined),
+                  errorBuilder: (_, __, ___) =>
+                      const Icon(Icons.shopping_bag_outlined),
                 ),
               ),
               title: Text(title, maxLines: 2, overflow: TextOverflow.ellipsis),
