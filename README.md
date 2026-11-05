@@ -32,6 +32,12 @@ flutter pub get
 flutter run
 ```
 
+İlk uygulamayı çalıştırdıktan sonra katmanlı mimari sürümüne geçmeden önce terminalde ana proje dizinine geri dönün:
+```bash
+cd ../..
+```
+Bu komut, naive_version/product_app dizininden flutter-sustainable-architecture-demo ana dizinine dönmenizi sağlar.
+
 ### B) Katmanlı mimari sürümünü çalıştır
 
 Yeni terminali repo kökünde aç veya ilk uygulama dizininden geri dön:
@@ -121,9 +127,10 @@ flutter-sustainable-architecture-demo/
 - Fake Store API haricî bir üçüncü taraf servistir; erişilebilirliği garanti değildir.
 - Platform dosyaları yerelde `flutter create` ile üretilir.
 
-## Makale
+## Medium Makalesi
 
-Medium makalesi yayımlandıktan sonra bağlantısı buraya eklenecek.
+Bu repository, Flutter'da Sürdürülebilir Mimari: Design Patterns, Repository Pattern ve Dependency Injection başlıklı Medium makalesini desteklemek amacıyla hazırlanmıştır.  Makalede Repository Pattern, Dependency Inversion Principle (DIP), Dependency Injection ve Flutter'da durum yönetimi gibi kavramlar ele alınmaktadır.
+📖 Medium Makalesini Oku
 
 ## Lisans
 
