@@ -130,7 +130,7 @@ flutter-sustainable-architecture-demo/
 ## Medium Makalesi
 
 Bu repository, Flutter'da Sürdürülebilir Mimari: Design Patterns, Repository Pattern ve Dependency Injection başlıklı Medium makalesini desteklemek amacıyla hazırlanmıştır.  Makalede Repository Pattern, Dependency Inversion Principle (DIP), Dependency Injection ve Flutter'da durum yönetimi gibi kavramlar ele alınmaktadır.
-📖 Medium Makalesini Oku
+📖 **[Medium Makalesini Oku](https://medium.com/@belliabdullah/flutterda-s%C3%BCrd%C3%BCr%C3%BClebilir-mimari-design-patterns-repository-pattern-ve-dependency-injection-4b573113e617)**
 
 ## Lisans
 
